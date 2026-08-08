@@ -1,0 +1,55 @@
+using daisyui for the faster ui design and bro 
+for more details of setting up go to 5.10hr 
+
+sign up loginin in ui adding x photo
+-homepage createposts posts feed-post.jsx blueprint
+
+
+in app.jsx there is app.jsx 
+beautiness loading suggested users in right rightpanel.jsx
+3 shortcuts notifications profile and followers page sidebar.jsx
+
+
+TANSTACK QUERY
+in APP.JSX QUERYKEY AUTHUSERS IS THERE fetching each time while udating the passowrds etc
+IN POSTS.JSX u have the usequery fetching of the posts if the post anywhere becomes old then again fetching
+in right panel SUGGESTEDUSER querykey fetching new follow SUGGEST
+in notifications u have querykey NOTIFICATIOSN  
+userProfile QUERYKEY INN profilePage.jsx
+
+EDITPROFILE USERUpdate HOOK FOR EDIITNG name bio link etc
+again using USERUpdate hook FOR UPDATING THE coverimg and profileimg
+in profile.jsx USEUPDATE AND USEFOLLOW HOOK
+IN EDITPROFILE HOOK USEUPDATE hhook that is used MUTUTAION FUNCTIONS
+
+1st in src SVGS/X twiiter logo 
+importing it into PAGES-AUTH folder -SIGNUP-LOGIN .JSX
+
+after SIGNUP OR LOGIN 
+direct to home page
+
+HOME PAGE-CREATPOST-POSTS.JSX
+                    POST.JSX-FORMATEDATE.JSX
+
+
+
+creating in HOME/CREATPOST.JSX and createpost.jsx then 
+``COMPONETS/COMMON/SIDEBAR
+slidebar.jsx it contains more features which directs you to home notifications
+and your main profile page 
+
+there is also COMPONETS/SKELETONS/rightpanelskelton.jsx brings loading box box effect
+#loading effects before 
+
+createpost.jsx before doing this create the skelton means that loading
+effect than use dummy data and create the 
+textarea emoji and albums icon and post button 
+
+PAGES/NOTIFICATION/notifications.jsx skelton in components in that common skelton
+loading jsx
+
+than profile.jsx same then editprofile jsx
+
+all this 3 #@home profile notifications are in the SIDEBAR
+in right side u have suggested followers
+
